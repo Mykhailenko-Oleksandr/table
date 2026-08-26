@@ -1,0 +1,20 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mykhailenko-Oleksandr/table.git"
+  },
+  "author": "Oleksandr Mykhailenko <saniamykhailenko@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "homepage": "https://github.com/Mykhailenko-Oleksandr/table#readme",
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
