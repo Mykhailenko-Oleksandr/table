@@ -8,9 +8,12 @@ body {
   background-color: #fafafa;
 }
 
+/* Таблиця уроку */
+
 .products {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .products th,
@@ -20,6 +23,7 @@ body {
 }
 
 .products caption {
+  font-size: 32px;
   margin-bottom: 8px;
   caption-side: top;
 }
@@ -39,4 +43,22 @@ body {
 
 .products tbody td:hover {
   background-color: orangered;
+}
+
+/* Таблиця практики */
+
+.practice {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.practice th,
+.practice td {
+  border: 1px solid #2a2a2a;
+  padding: 8px;
+  text-align: center;
+}
+
+.practice caption {
+  font-size: 32px;
 }
